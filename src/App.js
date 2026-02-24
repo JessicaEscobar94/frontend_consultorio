@@ -8,7 +8,7 @@ import HeaderInstitucional from './HEaderInstitucional';
 
 function App() {
   const [rol, setRol] = useState(null);
-  const [paso, setPaso] = useState('ROL');
+  const [, setPaso] = useState('ROL');
   const [usuario, setUsuario] = useState(null);
 
   useEffect(() => {
